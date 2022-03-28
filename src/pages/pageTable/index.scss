@@ -1,0 +1,17 @@
+.box{
+    position: relative;
+    // border-top: 8px solid rgb(247, 249, 252);
+    // background-color: rgb(247, 249, 252);
+    // box-shadow: rgb(0 0 0 / 5%) 0px 0px 2px 0px;
+    // height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.ant-table-small .ant-table-thead>tr>th{
+    background-color: #fff !important;
+}
