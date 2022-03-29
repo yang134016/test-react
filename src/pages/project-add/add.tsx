@@ -13,7 +13,7 @@ function AddTag (props: any) {
   const [form] = Form.useForm();
   // const [state, setstate] = useState<any>({ ...props.project })
   useEffect(() => {
-    const data = getAuthButtonList()
+    // const data = getAuthButtonList()
     if(props.Data.type === "add"){
       form.resetFields();
     }else{
