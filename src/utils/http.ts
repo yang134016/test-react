@@ -47,7 +47,7 @@ http.interceptors.response.use((response: AxiosResponse<any>): AxiosResponse<any
       okText: '确定',
       cancelText: '取消',
       onOk() {
-        window.location.href = '/login'
+        window.location.href = '/'
       }
     })
   }
